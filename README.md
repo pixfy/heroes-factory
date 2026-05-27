@@ -1,6 +1,6 @@
 # Desafio Fullstack - Kinebot
 
-Antes de tudo, obrigado pelo interesse em querer trabalhar conosco. O projeto visa avaliar habilidades técnicas  e desafios enfrentados no dia-a-dia. 
+Antes de tudo, obrigado pelo interesse em querer trabalhar conosco. O projeto visa avaliar habilidades técnicas e desafios enfrentados no dia-a-dia. 
 Logo abaixo você encontrará mais informações necessárias para o seu teste.
 
 
@@ -10,7 +10,6 @@ Logo abaixo você encontrará mais informações necessárias para o seu teste.
 -   Crie um repositório no seu GitHub **sem mencionar o Kinebot em nenhum momento**;
 -   Vá fazendo seus commits no repositório enquanto for avançando;
 -   Envie o link do seu repositório como resposta do email ao recrutador;
--   Fique à vontade para dar uma pesquisada no Google, Stack Overflow ou até no que você já tem de projeto na sua máquina;
 -   Se surgir alguma dúvida, é só perguntar;
 -   Boa sorte!
 
@@ -24,29 +23,25 @@ _Corpo do email com o link do repositório do desafio_
 
 ### Sobre o ambiente da aplicação:
 
- - A aplicação deverá ser composta de uma API, Front-end e banco de dados.
+ - A aplicação deverá ser composta de uma API, front-end e banco de dados.
 
 #### Front-end
 - Deve ser feito em ReactJS em qualquer framework;
 - Usar Typescript é essencial;
-- Pode utitlizar qualquer biblioteca de componentes.
+- Pode utilizar qualquer biblioteca de componentes.
 
  #### Back-end
  - Deve ser feito com NodeJS;
  - Pode ser feito em JS puro;
- - Pode utitlizar ORM ou raw queries.
+ - Pode utilizar ORM ou raw queries.
  
  #### Banco de dados
  - Usar o MySQL na versão 8.0+.
  
  **Observação**: O banco de dados deverá rodar em uma imagem docker local.
- 
-### Apresentação do seu projeto
-Após o envio do email com o link do seu repositório, será marcado uma reunião para fazer a apresentação do seu projeto. Nesse dia é importante ter o projeto rodando.
-Iremos perguntar o porque de algumas escolhas técnicas, como foi o processo de desenvolvimento e possíveis adaptações do projeto.
 
 ### O que é a aplicação
-A "**Hero Factory**" é uma plataforma de gestão de heróis e podemos informar principais características e poderes do nosso herói. 
+A "**Hero Factory**" é uma plataforma de gestão de heróis no qual podemos informar principais características e poderes do nosso herói. 
 Na aplicação é possível realizar a criação, listagem, updates e exclusão dos mesmos. 
 
 #### Requisitos
@@ -87,7 +82,7 @@ A seguir estão algumas regras de negócio importantes para o funcionamento:
 - Todos os serviços devem ser RESTFul;
 - Não é necessário qualquer tipo de autenticação.
 
-## Exemplo do frontend
+## Frontend esperado
 
 ![Tela inicial](https://kinebot-statics.s3.us-east-1.amazonaws.com/heroes_1.png)
 ![Criação](https://kinebot-statics.s3.us-east-1.amazonaws.com/heroes_2.png)
@@ -99,8 +94,7 @@ A seguir estão algumas regras de negócio importantes para o funcionamento:
 https://github.com/user-attachments/assets/f4215a88-aeef-453f-920f-83852d548043
 
 ## Avaliação
-Apresente sua solução utilizando o framework que você desejar, justificando a escolha. 
-Atente-se a cumprir a maioria dos requisitos propostos, caso não consiga iremos conversar no dia da apresentação.
+Apresente sua solução utilizando o framework que você desejar, justificando a escolha. Atente-se a cumprir a maioria dos requisitos propostos.
 
 ## O que será avaliado
 
@@ -123,7 +117,7 @@ Atente-se a cumprir a maioria dos requisitos propostos, caso não consiga iremos
 -	Estrutura de pastas e nomes de arquivos;
 -	Noções de escalabilidade.
 
-## O que será um Diferencial
+## O que será um diferencial
 -   Uma cobertura de testes consistente
 -   Uso de Design Patterns
 -   Documentação
